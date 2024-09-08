@@ -3,7 +3,7 @@ let signinBtn = document.getElementById("signinbtn")
 let nameField = document.getElementById("namefield")
 let title = document.getElementById("title")
 let underline = document.getElementById("underline")
-let text = document.querySelector("p")
+let text = document.getElementById("text")
 
 signinBtn.addEventListener('click', () =>{
     nameField.style.maxHeight='0';
